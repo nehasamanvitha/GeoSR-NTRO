@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0b0f17"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#10b981" stroke-width="2" stroke-opacity="0.3"/>
+  <!-- Grid representation -->
+  <path d="M16 20H48M16 32H48M16 44H48M20 16V48M32 16V48M44 16V48" stroke="#334461" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <!-- Super Resolution Reticle -->
+  <circle cx="32" cy="32" r="16" stroke="#10b981" stroke-width="2.5" fill="#10b981" fill-opacity="0.1"/>
+  <circle cx="32" cy="32" r="6" fill="#10b981"/>
+  <!-- Target lines -->
+  <path d="M32 10V14M32 50V54M10 32H14M50 32H54" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+</svg>
